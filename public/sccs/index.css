@@ -1,3 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+
 body {
   margin: 0;
+  font-family: 'Aboreto';
 }
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 49px;
+  background-color: #5B4A58;
+
+}
+
+.info {
+  display: flex;
+  margin-top: 9px;
+  height: 22px;
+  margin-right: 250px;
+}
+
+.target {
+  display: flex;
+  margin-top: 7px;
+  width: 14px;
+  height: 19px;
+}
+
+.address {
+  display: flex;
+  margin-right: 15px;
+}
+.city {
+  color:#6AAE55;
+}
+
+.street {
+  color: #ffffff;
+}
+
+.header_center {
+  justify-content: center;
+  width: 412px;
+  display: flex;
+  background-color: #6d5b6a;
+}
+
+.handset {
+  margin-top: 15px;
+  width: 18px;
+  height: 18px;
+}
+
+.container_number{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-top: -28px;
+}
+
+.whatsapp {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.number {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.header_right {
+  margin-left: 120px;
+}
+
