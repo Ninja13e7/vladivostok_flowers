@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ asset('sccs/index.css') }}">
 </head>
 <body>
-<header class="header">
+    <header class="header">
         <div class="info">
             <div class="header_left">
                 <div class="target">
@@ -29,7 +29,7 @@
                         </div>
                 </div>
             </div>
-        <div class="info">
+        <div class="infocart">
             <div class="header_right">
                 <a href="#">
                 <img src="image/headerimg/Vector.png" alt="cart">
