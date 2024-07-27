@@ -39,6 +39,24 @@
         </div>
     </header>
     <div class="navbar">
-
+        <div class="navbar_left">
+            <a href="#" class="catalog">Каталог</a>
+            <a href="#" class="reviews">Отзывы</a>
+            <a href="#" class="сontacts">Контакты</a>
+        </div>
+        <div class="navbar_logo">
+            <img src="image/navbar/flover_shop.png" alt="flover_shop">
+        </div>    
+        <div class="dropdown">
+            <button class="dropbtn">Информация для клиента</button>
+                <div class="dropdown-content">
+                    <a href="#">Скидки</a>
+                    <a href="#">Акции</a>
+                    <a href="#">Статус заказа</a>
+                </div>
+        </div>
+        <div class="navbar_right">
+            <a href="#">Мои заказы</a>
+        </div>
     </div>
 </body>
