@@ -36,7 +36,7 @@ body {
 .address {
   display: flex;
   align-items: center;
-  margin-left: 10px
+  margin-left: 10px;
 }
 
 .city {
@@ -45,6 +45,7 @@ body {
 
 .street {
   color: #ffffff;
+  margin-left: 10px;
 }
 
 .header_center {
@@ -81,9 +82,22 @@ body {
   margin-left: 120px;
 }
 
+.header_right a {
+  text-decoration: none;
+}
+
 .infocart {
+  position: relative;
   margin-top: 9px;
   height: 22px;
   margin-right: 250px;
-  align-items: center;
+}
+
+.Sum {
+  color: #ffffff;
+  margin-left: 12px;
+  line-height: 22px;
+  position: absolute; 
+  top: 15px; 
+  transform: translateY(-50%);
 }

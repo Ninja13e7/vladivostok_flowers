@@ -31,10 +31,14 @@
             </div>
         <div class="infocart">
             <div class="header_right">
-                <a href="#">
+                <a href="#" >
                 <img src="image/headerimg/Vector.png" alt="cart">
+                <span class="Sum">150000₽</span>
                 </a>
             </div>
         </div>
     </header>
+    <div class="navbar">
+
+    </div>
 </body>
