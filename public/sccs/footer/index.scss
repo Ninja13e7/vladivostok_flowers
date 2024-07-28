@@ -5,17 +5,6 @@
     font-weight: normal;
 }
 
-footer {
-    font-family: Literal;
-    font-size: 0.833vw;
-    line-height: 1.12vw;
-}
-
-.footer__line {
-    height: 0.052vw;
-    background-color: #A29BB4;
-}
-
 .material-symbols-outlined {
     font-variation-settings:
          'FILL' 0,
@@ -25,7 +14,13 @@ footer {
     color: white;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
+    footer {
+        font-family: Literal;
+        font-size: 0.833vw;
+        line-height: 1.12vw;
+    }
+
     .footer-links {
         display: flex;
         justify-content: space-between;
@@ -105,5 +100,106 @@ footer {
         padding: 1.146vw;
         color: #A69BA4;
         background-color: #5B4A58;
+    }
+
+    .footer__line {
+        height: 0.052vw;
+        background-color: #A29BB4;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    footer {
+        font-family: Literal;
+        font-size: 4vw;
+        line-height: 6.719vw;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        padding: 10vw 15.625vw;
+        background-color: #746471;
+        align-items: center;
+        gap: 4.375vw;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8.75vw;
+        background-color: #5B4A58;
+        color: white;
+        padding: 4.688vw 7.813vw;
+    }
+
+    .footer-info__column {
+        display: flex;
+        flex-direction: column;
+        gap: 4.688vw;
+    }
+
+    .footer-info__green-text {
+        color: #6AAE55;
+        font-size: 4vw;
+        line-height: 6.719vw;
+        font-weight: bold;
+    }
+
+    .footer-info__white-text {
+        display: flex;
+        align-items: center;
+        gap: 4.375vw;
+    }
+
+    .form-input {
+        display: flex;
+        gap: 2.813vw;
+        flex-direction: column;
+    }
+
+    .form-input_up {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            height: 10.313vw;
+        }
+    }
+
+    .form-input_down {
+        margin-top: 3.125vw;
+        width: 84.903vw;
+        height: 23.438vw;
+    }
+
+    .footer-info__button {
+        background-color: #6AAE55;
+        border: 0.052vw solid #5B4A58;
+        color: white;
+        border-radius: 1.563vw;
+        padding: 2.813vw;
+    }
+
+    .footer-info__button:active {
+        border: 0.052vw solid white;
+    }
+
+    .footer-info__rights {
+        display: flex;
+        justify-content: center;
+        padding: 7.813vw;
+        color: #A69BA4;
+        background-color: #5B4A58;
+    }
+
+    .footer__line {
+        height: 0.313vw;
+        background-color: #A29BB4;
     }
 }
