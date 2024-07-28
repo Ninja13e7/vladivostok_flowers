@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Цветочная лавка</title>
     <link rel="stylesheet" href="{{ asset('sccs/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('sccs/footer/index.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header class="header">
@@ -17,13 +19,13 @@
                 <div class="address">
                     <span class="city">г. Владивосток,</span>
                     <span class="street"> ул. Пушкинская, 17 А</span>
-                </div> 
+                </div>
             </div>
         </div>
             <div class="header_center">
                 <div>
                     <img class="handset" src="image/headerimg/handset.png" alt="handset">
-                        <div class="container_number"> 
+                        <div class="container_number">
                             <span class="whatsapp">whatsapp</span>
                             <span class="number">+7-888-888-8888 +7-777-777-7777</span>
                         </div>
@@ -46,7 +48,7 @@
         </div>
         <div class="navbar_logo">
             <img src="image/navbar/flover_shop.png" alt="flover_shop">
-        </div>    
+        </div>
         <div class="dropdown">
             <button class="dropbtn">Информация для клиента</button>
                 <div class="dropdown-content">
@@ -59,4 +61,5 @@
             <a href="#">Мои заказы</a>
         </div>
     </div>
+    @include('template.footer')
 </body>
