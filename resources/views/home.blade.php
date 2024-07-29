@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Цветочная лавка</title>
     <link rel="stylesheet" href="{{ asset('sccs/header/index.css') }}">
+    <link rel="stylesheet" href="{{asset('sccs/slider/index.css') }}">
     <link rel="stylesheet" href="{{ asset('sccs/footer/index.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     @include('template.header')
+    @include('template.slider')
     @include('template.footer')
 </body>

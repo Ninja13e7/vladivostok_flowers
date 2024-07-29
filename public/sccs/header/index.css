@@ -124,6 +124,16 @@
     margin: 0 2.5vw;
   }
 
+  .navbar_logo {
+    /*width: 6.375vw;*/
+    height: 5.313vw;
+    left: 56.5vw;
+  }
+
+  .navbar_logo img {
+    height: 5.313vw;
+  }
+
   .dropbtn {
     font-family: 'Amatic SC';
     background-color: #ffffff;
@@ -186,7 +196,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 3.063vw;
+    height: 8.18vw;
     background-color: #5B4A58;
 
   }
@@ -197,23 +207,23 @@
 
   .header_left {
     display: flex;
-    margin-top: 0.563vw;
-    height: 1.375vw;
-    margin-right: 6.525vw;
+    margin-top: 1.503vw;
+    height: 3.673vw;
+    margin-right: 17.362vw;
     align-items: center;
 
   }
   .target {
     display: flex;
-    width: 0.875vw;
-    height: 1.188vw;
+    width: 2.337vw;
+    height: 3.172vw;
   }
 
   .address {
     display: flex;
     align-items: center;
-    margin-left: 0.625vw;
-    font-size: 1.25vw;
+    margin-left: 1.669vw;
+    font-size: 3.339vw;
   }
 
   .city {
@@ -222,42 +232,42 @@
 
   .street {
     color: #ffffff;
-    margin-left: 0.625vw;
+    margin-left: 1.669vw;
   }
 
   .header_center {
     justify-content: center;
-    width: 20.75vw;
+    width: 55.426vw;
     display: flex;
     background-color: #6d5b6a;
   }
 
   .handset {
-    margin-top: 0.938vw;
-    width: 1.25vw;
-    height: 1.25vw;
+    margin-top: 2.504vw;
+    width: 3.339vw;
+    height: 3.339vw;
   }
 
   .container_number{
     display: flex;
     flex-direction: column;
-    margin-left: 1.563vw;
-    margin-top: -2.188vw;
+    margin-left: 4.174vw;
+    margin-top: -5.843vw;
   }
 
   .whatsapp {
-    font-size: 1.063vw;
+    font-size: 2.838vw;
     color: #ffffff;
   }
 
   .number {
     margin-top: 0;
-    font-size: 1.25vw;
+    font-size: 2.838vw;
     color: #ffffff;
   }
 
   .header_right {
-    margin-left: 7.5vw;
+    margin-left: 20.033vw;
   }
 
   .header_right a {
@@ -266,45 +276,54 @@
 
   .infocart {
     position: relative;
-    margin-top: 0.563vw;
-    height: 1.375vw;
-    /*margin-right: 15.625vw;*/
+    margin-top: 1.503vw;
+    height: 3.673vw;
   }
 
   .Sum {
     color: #ffffff;
-    font-size: 1.25;
-    margin-left: 0.75vw;
-    line-height: 1.375vw;
+    font-size: 3.339vw;
+    margin-left: 2.003vw;
+    line-height: 3.673vw;
     position: absolute; 
-    top: 0.938vw; 
+    top: 2.504vw; 
     transform: translateY(-50%);
   }
 
   .navbar {
     display: flex;
-    height: 6.875vw;
+    height: 18.364vw;
     justify-content: center;
     color: #5B4A58;
-    font-size: 1.25vw;
+    font-size: 3.339vw;
   }
 
   .navbar_left {
-    padding: 2.5vw;
+    padding: 6.678vw;
   }
 
   .navbar_left a {
     text-decoration: none;
     color: inherit;
-    margin: 0 2.5vw;
+    margin: 0 6.678vw;
   }
 
+  .navbar_logo {
+    /*width: 6.375vw;*/
+    height: 5.313vw;
+    left: 56.5vw;
+  }
+
+  .navbar_logo img {
+    height: 5.313vw;
+  }
+  
   .dropbtn {
     font-family: 'Amatic SC';
     background-color: #ffffff;
     color: #5B4A58;
-    padding: 2.5vw;
-    font-size: 1.25vw;
+    padding: 6.678vw;
+    font-size: 3.339vw;
     border: none;
   }
 
@@ -318,14 +337,14 @@
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 10vw;
-    box-shadow: 0px 0.5vw 1vw 0px rgba(0,0,0,0.2);
+    min-width: 26.711vw;
+    box-shadow: 0px 1.336vw 2.671vw 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
 
   .dropdown-content a {
     color: #5B4A58;
-    padding: 0.75vw 1vw;
+    padding: 2.003vw 2.671vw;
     text-decoration: none;
     display: block;
   }
@@ -335,17 +354,17 @@
   /*.dropdown:hover .dropbtn {background-color: #6d5b6a;}*/
 
   .navbar_userpick {
-    padding: 2.5vw 0 0 2.5vw;
+    padding: 6.678vw 0 0 6.678vw;
     margin-right: 0;
   }
 
   .navbar_right {
-    padding: 2.5vw 2.5vw 0 0;
+    padding: 6.678vw 6.678vw 0 0;
   }
 
   .navbar_right a {
     text-decoration: none;
-    margin: 0 0.5vw;
+    margin: 0 1.336vw;
   }
   
 }

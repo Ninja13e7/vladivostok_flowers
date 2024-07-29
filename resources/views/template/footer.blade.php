@@ -13,7 +13,7 @@
             <span class="footer-info__white-text">
                 <span class="material-symbols-outlined">location_on</span>
                 <div>
-                    <span>г. Владивосток, ул. <br>Пушкинская, 17</span>
+                    <span>г. Владивосток, ул. <br>Пушкинская, 17 А</span>
                 </div>
             </span>
             <span class="footer-info__white-text">

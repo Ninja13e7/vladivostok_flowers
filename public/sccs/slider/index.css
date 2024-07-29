@@ -1,0 +1,21 @@
+
+.slider img {
+    width: 100vw;
+    height: 43.688vw;
+}
+
+.title_slider {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    font-size: 35px;
+    color: #5b4a5b;
+}
+
+.delivery {
+    color: #6aae55;
+}
+
+.Vladivostok {
+    font-size: 65px;
+}
