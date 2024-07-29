@@ -45,7 +45,10 @@
             <a href="#">Статус заказа</a>
         </div>
     </div>
-    <div class="navbar_right">
+    <div class="navbar_userpick">
+        <img src="image/navbar/userpick.png" alt="userpick">
+    </div>
+    <div class="navbar_right"> 
         <a href="#">Мои заказы</a>
     </div>
 </div>
