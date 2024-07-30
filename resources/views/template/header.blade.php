@@ -19,11 +19,12 @@
             </div>
         </div>
     </div>
+    <div class="header__line"></div>
     <div class="infocart">
         <div class="header_right">
             <a href="#" >
                 <img src="image/headerimg/Vector.png" alt="cart">
-                <span class="Sum">150000₽</span>
+                <span class="sum">150000₽</span>
             </a>
         </div>
     </div>
@@ -48,7 +49,7 @@
     <div class="navbar_userpick">
         <img src="image/navbar/userpick.png" alt="userpick">
     </div>
-    <div class="navbar_right"> 
+    <div class="navbar_right">
         <a href="#">Мои заказы</a>
     </div>
 </div>
