@@ -1,21 +1,115 @@
 
-.slider img {
-    width: 100vw;
-    height: 43.688vw;
+@media screen and (min-width: 600px) {
+    .slider {
+        position: relative;
+    }
+
+    .slider img {
+        width: 98.938vw;
+        height: 43.688vw;
+    }
+
+   /* .title_parent {
+        position: relative;
+        width: 28.875vw;
+        height: 13.75vw;
+       top: -50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }*/
+
+    .title_slider {
+        top: 50%;
+        left: 50%;
+        width: 28.875vw;
+        height: 13.75vw;
+        position: absolute;
+        transform: translate(-50%, -50%); 
+        z-index: 1;
+        font-size: 2.188vw;
+        color: #5b4a5b;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .delivery {
+        color: #5b4a5b;
+        font-size: 3.438vw;
+    }
+
+    .delivery_span {
+        color: #6aae55;
+    }
+
+    .Vladivostok {
+        margin: 0;
+        font-size: 5.313vw;
+    }
+
+    .catalog_button {
+        font-size: 1.563vw;
+        font-family: "Literal";
+        text-decoration: none;
+        border: none;
+        width: 13.125vw;
+        height: 3.125vw;
+        border-radius: 0.625vw;
+        color: #ffffff;
+        background-color: #6aae55;
+    }
+        .catalog_button:hover {
+            background-color: #6aae35;
+            transition: 0.5s;
+        }
 }
 
-.title_slider {
-    display: flex;
-    position: absolute;
-    z-index: 1;
-    font-size: 35px;
-    color: #5b4a5b;
-}
+@media screen and (max-width: 599px) {
+    .slider {
+        position: relative;
+    }
 
-.delivery {
-    color: #6aae55;
-}
+    .slider img {
+        width: 264.274vw;
+        height: 116.694vw;
+    }
 
-.Vladivostok {
-    font-size: 65px;
+    .title_slider {
+        width: 77.129vw;
+        height: 36.728vw;
+        position: absolute;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        z-index: 1;
+        font-size: 5.843vw;
+        color: #5b4a5b;
+        text-align: center;
+    }
+
+    .delivery {
+        color: #5b4a5b;
+        font-size: 9.182vw;
+    }
+
+    .delivery_span {
+        color: #6aae55;
+    }
+
+    .Vladivostok {
+        margin: 0;
+        font-size: 14.19vw;
+    }
+
+    .catalog_button {
+        font-size: 4.174vw;
+        font-family: "Literal";
+        text-decoration: none;
+        border: none;
+        width: 35.058vw;
+        height: 8.347vw;
+        border-radius: 1.669vw;
+        color: #ffffff;
+        background-color: #6aae55;
+    }
 }
